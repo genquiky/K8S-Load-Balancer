@@ -1,7 +1,7 @@
 
 # KUBERNETES Part xx: Load Balancer
 
-In this part I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the load balancer adistributes traffic to each `endpoint`.
+In this part I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the load balancer distributes traffic to each `endpoint`.
 
 
 Steps:
@@ -53,7 +53,7 @@ Assigned endpoints IPs:<br>
    ```
 
 
-<b>1.5 Checking the IP assigned for the `service` exposed to the internet, from the cluster using `minikube`. This is an unique external IP access to the `endpoints`</b>
+<b>1.5 Checking the IP assigned for the `service` exposed to the internet, from the cluster using `minikube`. This is a unique external IP access to the `endpoints`</b>
 <a id="1-1"></a>
 
 <img width="600" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/07.png" />
