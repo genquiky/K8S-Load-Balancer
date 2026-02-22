@@ -1,13 +1,7 @@
 
 # KUBERNETES Part xx: Load Balancer
 
-In this part I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demostrating how the load balancer apply traffic to each `endPoint` in the cluster.
-
-Requirements for this test environment:
-
-* At least 2 CPU cores (or virtual CPUs), 2 GB of RAM memory (4GB recommended), and 20 GB of disk storage.
-* Docker Desktop (v4.15.0)
-* Kubectl (v1.25.2)
+In this part I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the load balancer applies traffic to each `endpoint`.
 
 Glossary:
 
@@ -27,73 +21,58 @@ Glossary:
 [3. GUI monitoring dashboards](#three)
 >[2.1 Adding a new cluster](#3-1)<br>
 >[2.2 Checking the new cluster](#3-2)<br>
-  
 
-<br>
-<a id="one"></a>
-
-## 1. Creating a local cluster with 1 node (Control Plane)
 
 
 Steps:
 
-
-
-
-////////
-# K8S-Load-Balancer
-
-
-Steps:
-
-<b>1.1 Installing Docker Desktop for mac</b>
+<b>1.1 Creating a deployment `gen-deploy` with 3 replicas and adding the text `hello from:deploy` in the image</b>
 <a id="1-1"></a>
+
 
 
 <img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/01.png" />
 
-<br>
-<br>
-<br>
-<br>
+  ```bash
+   kubectl create deployment gen-deploy --image=pbitty/hello-from:latest --port=80 --replicas=3
+   ```
 
-Steps:
 
-<b>1.1 Installing Docker Desktop for mac</b>
+
+
+
+
+
+
+
+<b>1.2 Checking the deployment and the pods created</b>
 <a id="1-1"></a>
+
+
 
 
 <img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/02.png" />
 
-<br>
-<br>
-<br>
-<br>
+   ```bash
+   kubectl get deploy,po --show-labels
+   ```
 
-
-
-Steps:
-
-<b>1.1 Installing Docker Desktop for mac</b>
+<b>1.3 I have exposed the `service` object with the `type=NodePort` to be accessible from the external world</b>
 <a id="1-1"></a>
+
+
 
 
 <img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/03.png" />
 
-<br>
-<br>
-<br>
-<br>
+   ```bash
+   kubectl expose deployment gen-deploy --type=NodePort
+   ```
 
 
 
 
-
-
-
-Steps:
-
-<b>1.1 Installing Docker Desktop for mac</b>
+<b>1.3 Installing Docker Desktop for mac</b>
 <a id="1-1"></a>
 
 
