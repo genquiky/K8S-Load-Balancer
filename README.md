@@ -43,12 +43,13 @@ Steps:
 <br>
 
 <b>1.4 Listing the `deploy`, `pods`, `service` and `endpoints` IPs with the label `gen-deploy`:</b>
-<a id="1-1"></a> <br>
-Assigned endpoints IPs:<br>
-10.244.0.4:80 <br>
-10.244.1.10:80 <br>
-10.244.1.9:80 <br>
 
+Assigned endpoints IPs:<br>
+10.244.0.4:80<br>
+10.244.1.10:80<br>
+10.244.1.9:80
+<br>
+<br>
 
 <img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/06.png" />
 
@@ -60,7 +61,6 @@ Assigned endpoints IPs:<br>
 <br>
 
 <b>1.5 Checking the IP assigned to the `service` exposed to the internet, from the cluster using `minikube`. This is a unique external IP access to the `endpoints`:</b>
-<a id="1-1"></a>
 
 <img width="600" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/07.png" />
 
@@ -71,8 +71,7 @@ Assigned endpoints IPs:<br>
 <br>
 
 <b>1.6 Accessing the service in the cluster using the URL assigned by Kubernetes from the outside:</b>
-<a id="1-1"></a>
-Here I can confirm access to the application and that the `load balancer` distributes traffic to each `replica`.
+Here I can confirm access to the application and that the `load balancer` distributes traffic to each `replicas`.
 
 <img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/08.png" />
 
