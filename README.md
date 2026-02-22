@@ -7,7 +7,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.39.12.png" />
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/01.png" />
 
 <br>
 <br>
@@ -20,7 +20,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.40.47.png" />
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/02.png" />
 
 <br>
 <br>
@@ -35,23 +35,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.41.41.png" />
-
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-Steps:
-
-<b>1.1 Installing Docker Desktop for mac</b>
-<a id="1-1"></a>
-
-
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.43.12.png" />
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/03.png" />
 
 <br>
 <br>
@@ -67,7 +51,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.43.50.png" />
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/04.png" />
 
 <br>
 <br>
@@ -83,7 +67,23 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.46.19.png" />
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/05.png" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+Steps:
+
+<b>1.1 Installing Docker Desktop for mac</b>
+<a id="1-1"></a>
+
+
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/06.png" />
 
 <br>
 <br>
@@ -98,7 +98,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.55.59.png" />
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/07.png" />
 
 <br>
 <br>
@@ -115,7 +115,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="1500" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/Screenshot%202026-02-14%20at%2019.57.48.png" />
+<img width="1500" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/08.png" />
 
 <br>
 <br>
