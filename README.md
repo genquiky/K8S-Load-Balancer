@@ -1,7 +1,7 @@
 
 # KUBERNETES Part xx: Load Balancer
 
-In this part I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the load balancer applies traffic to each `endpoint`.
+In this part I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the load balancer adistributes traffic to each `endpoint`.
 
 
 Steps:
@@ -36,8 +36,6 @@ Steps:
    ```bash
    kubectl expose deployment gen-deploy --type=NodePort
    ```
-
-
 
 
 <b>1.4 In this step I have listed the `deploy`, `pods`, `service` and `endpoints` IP's with the label `gen-deploy`</b>
