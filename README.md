@@ -45,21 +45,6 @@ Steps:
 
 
 
-Steps:
-
-<b>1.1 Installing Docker Desktop for mac</b>
-<a id="1-1"></a>
-
-
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/04.png" />
-
-<br>
-<br>
-<br>
-<br>
-
-
-
 
 Steps:
 
