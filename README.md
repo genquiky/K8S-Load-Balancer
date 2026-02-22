@@ -7,7 +7,7 @@ Requirements for this test environment:
 
 * At least 2 CPU cores (or virtual CPUs), 2 GB of RAM memory (4GB recommended), and 20 GB of disk storage.
 * Docker Desktop (v4.15.0)
-* Minikube (v1.37.0)
+* Kubectl (v1.25.2)
 
 Glossary:
 
