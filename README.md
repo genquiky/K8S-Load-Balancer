@@ -69,7 +69,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/07.png" />
+<img width="600" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/07.png" />
 
 <br>
 <br>
@@ -86,7 +86,7 @@ Steps:
 <a id="1-1"></a>
 
 
-<img width="1500" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/08.png" />
+<img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/08.png" />
 
 <br>
 <br>
