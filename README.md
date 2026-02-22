@@ -1,7 +1,7 @@
 
 # KUBERNETES Part xx: Load Balancer
 
-In this part we will be creating a deployment with 3 replicas and exposing the Pods to the internet and demostrate how the load balancer apply traffic to each EndPoint
+In this part we will be creating a `deployment` with 3 replicas, exposing the `pods` to the internet through `service` and demostrate how the load balancer apply traffic to each `endPoint` in our cluster.
 
 Requirements for this test environment:
 
