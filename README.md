@@ -60,7 +60,7 @@ Assigned endpoints IPs:<br>
 <br>
 <br>
 
-<b>1.5 Checking the IP assigned to the `service` exposed to the internet, from the cluster using `minikube`. This is a unique external IP access to the `endpoints`:</b>
+<b>1.5 Checking the IP assigned to the `service` exposed to the internet, from the cluster using `minikube`. This is a unique external IP access to the application `192.168.49.2:31747`</b>
 
 <img width="600" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/07.png" />
 
