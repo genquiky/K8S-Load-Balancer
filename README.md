@@ -1,7 +1,7 @@
 
 # KUBERNETES Part II: Service and Load Balancer
 
-In this part I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the `load balancer` distributes traffic to each `endpoint`.
+In this practical exercise I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the `load balancer` distributes traffic to each `endpoint`.
 
 
 Steps:
