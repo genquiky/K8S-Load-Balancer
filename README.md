@@ -60,7 +60,8 @@ Assigned endpoints IPs:<br>
 <br>
 <br>
 
-<b>1.5 Checking the IP assigned to the `service` exposed to the internet, from the cluster using `minikube`. This is a unique external IP access to the application `192.168.49.2:31747`</b>
+<b>1.5 Checking the IP assigned to the `service` exposed to the internet, from the cluster using `minikube`.</b> 
+<br>This is a unique external IP access to the application `192.168.49.2:31747`
 
 <img width="600" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/07.png" />
 
@@ -71,7 +72,7 @@ Assigned endpoints IPs:<br>
 <br>
 
 <b>1.6 Accessing the service in the cluster using the URL assigned by Kubernetes from the outside:</b>
-Here I can confirm access to the application and that the `load balancer` distributes traffic to each `replicas`.
+<br>Here I can confirm access to the application and that the `load balancer` distributes traffic to each `replicas`.
 
 <img width="872" height="auto" alt="image" src="https://github.com/genquiky/K8S-Load-Balancer/blob/main/images/08.png" />
 
