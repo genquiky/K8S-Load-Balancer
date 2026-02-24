@@ -1,6 +1,6 @@
 <img width="270" height="auto" alt="image" src="https://github.com/cncf/artwork/raw/main/projects/kubernetes/horizontal/all-blue-color/kubernetes-horizontal-all-blue-color.png" />
 
-# KUBERNETES Part II: Service and Load Balancer
+# Part II: Service and Load Balancer
 
 In this practical exercise I have created a `deployment` with 3 replicas, exposing the `pods` to the internet through the `service` object and demonstrating how the `load balancer` distributes traffic to each `endpoint`.
 
